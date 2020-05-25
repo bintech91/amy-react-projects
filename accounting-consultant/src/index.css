@@ -1,0 +1,359 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p.paragraph-general {
+  line-height: 200%;
+  width: 70%;
+}
+
+/*------Home-------*/
+
+#home {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  margin-bottom: 100px;
+} 
+
+
+#bg {
+position: absolute;
+z-index: -1;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+overflow: hidden;
+background: -webkit-linear-gradient(rgba(44, 85, 221, 0.8), rgba(44, 85, 221, 0.8)), url(/consulting-bg.jpg) ;
+background: linear-gradient(rgba(44, 85, 221, 0.8), rgba(44, 85, 221, 0.8)), url(/consulting-bg.jpg) ; /* The least supported option. */
+background-size:  100%;
+width: 100%;
+height: 95%;
+}
+
+#consultant-form {
+  margin-top: 30px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  width: 380px;
+}
+
+#signin-form {
+  margin-top: 100px;
+  padding: 30px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  width: 1000px;
+}
+
+a.navLink.active {
+  font-weight: bold;
+  border-bottom: 3px solid #456DFE;
+}
+
+.input-field :focus {
+  border-bottom: 1px solid #456DFE !important;
+  box-shadow: 0 1px 0 0 #456DFE !important;
+}
+
+.input-field button:hover {
+  background-color: #2962ff;
+}
+
+.sendMessage {
+  width: 100%;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #456DFE;
+  height: 4em;
+  text-transform: none;
+}
+
+button.general {
+  margin-top: 30px;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #456DFE;
+  height: 4em;
+  text-transform: none;
+}
+
+
+.navLink {
+  color: black;
+}
+
+i.service {
+  display: block;
+  padding: 15px;
+  background-color: rgba(69, 109, 254, 0.1);
+  border-radius: 7px;
+  color: #456DFE;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+i.service:hover {
+  background-color: #456DFE;
+  color: white;
+}
+
+.card-image {
+  margin: 20px auto;
+  display: table;
+}
+
+.serviceItem:hover {
+  background-color: rgba(69, 109, 254,0.05);
+}
+
+.serviceItem {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.card-service {
+  padding: 20px;
+}
+
+.header3 {
+  font-weight: bold;
+}
+
+#aboutus {
+  margin-top: 100px;
+}
+
+.achievementHeader 
+{
+  height: 500px;
+  width: 100vw;
+  overflow: hidden;
+  background: -webkit-linear-gradient(rgba(44, 85, 221, 0.8), rgba(44, 85, 221, 0.8)), url("/achievement 2.png");
+  background: linear-gradient(rgba(44, 85, 221, 0.8), rgba(44, 85, 221, 0.8)), url("/achievement 2.png"); 
+  position: absolute;
+  z-index: -1;
+}
+
+.card:not(#profile):not(.cardClient):not(#avatar) {
+  height: 250px;
+}
+
+
+.project {
+  margin-top: 300px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.testimonialsHeader {
+  height: 500px;
+  width: 100vw;
+  overflow: hidden;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/testimonials.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/testimonials.jpg"); 
+  position: absolute;
+  z-index: -1;
+}
+
+
+th, td {
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+}
+
+table > tbody > tr:last-child > .priceRow {
+  border-bottom: 2px solid #456DFE;
+  font-weight: bold;
+}
+
+tr#tableHeader> .priceRow {
+  border-top: 2px solid #456DFE;
+  font-weight: bold;
+  color: #456DFE;
+}
+
+.priceRow {
+  border-left: 2px solid #456DFE;
+  border-right: 2px solid #456DFE;
+}
+
+tr#tableHeader {
+  height: 70px;
+}
+
+.documentRow {
+  background-color: rgba(245, 247, 255, 0.8);
+}
+
+
+.footer
+{ margin-top: 100px;
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+  background: -webkit-linear-gradient(rgba(31, 30, 30, 0.8), rgba(37, 37, 37, 0.8)), url("/footer.webp");
+  background: linear-gradient(rgba(31, 30, 30, 0.8), rgba(37, 37, 37, 0.8)), url("/footer.webp"); 
+  background-size: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.headerFooter {
+  font-weight: bold;
+  color: white;
+}
+
+.textFooter {
+  color: rgb(192, 189, 189);
+  font-weight: bold;
+}
+
+
+.client {
+  margin-top: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.cardClient {
+  height: 400px;
+}
+
+.dot {
+  height: 80px;
+  width: 80px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url(/avatar.png);
+  background-size: 100%;
+}
+
+.social-icon {
+  opacity: 0.7;
+  position: relative;
+  bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 45px
+}
+
+.social-icon:hover {
+  height: 45px;
+}
+
+.account {
+  color: black;
+  position: relative;
+  bottom: 8px;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.signinBtn, .signoutBtn {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.signinBtn:active, .signoutBtn:active  {
+  background-color: white;
+  color: black;
+}
+
+.signinBtn:focus, .signoutBtn:focus {
+  background-color: white;
+  color: black;
+}
+
+.signinHeader {
+  padding-top: 50px;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+
+.btn:focus {
+  background-color: #456DFE;
+}
+
+.general:hover {
+  background-color: #2962ff;
+}
+
+#profile {
+  margin-top: 80px;
+  padding: 30px;
+  margin-left: 20px;
+  width: 800;
+}
+
+#avatar{
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.uploadAvatar {
+  padding-bottom: 30px;
+}
+
+.uploadBtn:focus {
+  background-color: rgb(247, 235, 235, 0.5);
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.avatarImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 1px;
+  border:1px solid  #021a40;
+}
+
+.topNavAva {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 1px;
+}
+
+#avatarIcon {
+  font-size: 30px;
+  position: relative;
+  bottom: 3px;
+  opacity: 0.7;
+  height: 40px
+}
+
+#avatarIcon:hover {
+  height: 50px
+}
+
+.topNav {
+  height: 40px
+}
+
+.topNav nav {
+  height: 40px
+}
+
