@@ -84,7 +84,7 @@ export class SignIn extends Component {
                             <input type="password" id="password" onChange={this.handleChange} />
                         </div>
                         <div className="input-field">
-                            <button className="btn sendMessage">{this.state.isSignUp ? 'Sign Up' : 'Sign In'}</button>
+                            <button className="btn sendMessage">{this.state.isSignUp ? 'Register' : 'Login'}</button>
                         </div>
                     </form>
                 </div>

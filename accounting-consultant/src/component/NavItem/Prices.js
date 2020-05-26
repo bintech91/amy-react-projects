@@ -24,7 +24,7 @@ export class Prices extends Component {
                     <table>
                         <thead>
                         <tr id="tableHeader">
-                            <th className="documentRow">Doucument count</th>
+                            <th className="documentRow">Document count</th>
                             <th className="priceRow">Price</th>
                         </tr>
                         </thead>
