@@ -6,8 +6,8 @@ export class Testimonials extends Component {
     render() {
         return (
             <div id={this.props.id}> 
-                <div className="row" style={{marginTop: "100px"}}>
-                <div className="testimonialsHeader">
+                <div className="row" style={{marginTop: "400px"}}>
+                <div className="col s12 testimonialsHeader">
                     <section className="header-text" style={{textAlign: "center", marginTop: "100px"}}>
                         <h6 className="textFooter">Testimonials</h6>
                         <h3 className="header3">Client testimonials</h3>

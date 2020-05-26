@@ -6,13 +6,13 @@ export class AboutUs extends Component {
     render() {
         return (
             <div id={this.props.id}> 
-                <div className="row">
-                <div className="col s5">
-                    <div style={{paddingLeft: '100px'}}>
+                <div className="row" style={{paddingLeft: '100px'}}>
+                <div className="col s12 m12 l5">
+                    <div>
                             <img src="/about-us.jpg" alt="" style={{width: '80%'}}/>
                         </div>
                     </div>
-                    <div className="col s7">
+                    <div className="col s12 m12 l7">
                             <h6 className="textFooter">About us</h6>
                             <h3 className="header3">We are innovation & efficiency</h3>
                             <p className="paragraph-general">Now is the winter of our discontent Made glorious summer by this sun of York; 
@@ -24,7 +24,7 @@ export class AboutUs extends Component {
                     </div>
                 </div>
                 <div className="row" style={{marginTop: "100px"}}>
-                <div className="achievementHeader">
+                <div className="col s12 achievementHeader">
                     <section className="header-text" style={{textAlign: "center", color: "white", marginTop: "100px"}}>
                         <h6 className="textFooter">Some facts</h6>
                         <h3 className="header3">Achievements in number</h3>

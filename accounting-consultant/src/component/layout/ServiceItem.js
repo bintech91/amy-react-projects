@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ServiceItem(props) {
     return (
-        <div className="col s3 serviceItem">
+        <div className="col s12 m6 l3 serviceItem">
         <div className="card-service">
             <div className="card-image">
                 <i className="medium material-icons service">{props.item.icon}</i><br />

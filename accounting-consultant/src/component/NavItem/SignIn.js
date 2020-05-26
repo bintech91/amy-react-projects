@@ -60,7 +60,8 @@ export class SignIn extends Component {
         const {auth} = this.props
         if(auth.uid) return <Redirect to='/' />
         return (
-            <div className="container" id = 'signin-form'>
+            <div className="row container">
+            <div className=" col s12" id = 'signin-form'>
                 <div className="signinHeader">
                 <button style={this.state.isSignUp ? {color: 'grey'} : {color: 'black'}} onClick={this.onClick} className = "signinBtn">Login</button> 
                         <span style={{fontSize: '50px'}}>        /       </span>
@@ -87,6 +88,7 @@ export class SignIn extends Component {
                             <button className="btn sendMessage">{this.state.isSignUp ? 'Register' : 'Login'}</button>
                         </div>
                     </form>
+                </div>
                 </div>
         )
     }

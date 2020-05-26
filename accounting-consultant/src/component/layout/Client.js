@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export class Client extends Component {
     render() {
         return (
-            <div>
-                <div className="col s6">
+            <div className='clientDiv'>
+                <div className="col s12 m6">
                         <div className="card cardClient">
                             <div className="card-content client container">
                                 <span className="dot"></span>
@@ -17,7 +17,7 @@ export class Client extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col s6">
+                    <div className="col s12 m6">
                         <div className="card cardClient">
                             <div className="card-content client container">
                                 <span className="dot"></span>

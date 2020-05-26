@@ -52,12 +52,15 @@ height: 95%;
   margin-top: 100px;
   padding: 30px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  width: 1000px;
 }
 
 a.navLink.active {
   font-weight: bold;
   border-bottom: 3px solid #456DFE;
+}
+
+a.navLink.activeSide {
+  font-weight: bold;
 }
 
 .input-field :focus {
@@ -90,6 +93,14 @@ button.general {
 
 .navLink {
   color: black;
+}
+
+.sidenav{
+  top: 104px;
+}
+
+.sidenav-overlay {
+  top: 104px;
 }
 
 i.service {
@@ -150,9 +161,8 @@ i.service:hover {
 
 
 .project {
-  margin-top: 300px;
+  top: 300px;
   position: relative;
-  z-index: 1;
   text-align: center;
   font-weight: bold;
 }
@@ -222,15 +232,13 @@ tr#tableHeader {
 }
 
 
-.client {
-  margin-top: 300px;
+.clientDiv {
   position: relative;
+  top: 300px;
   z-index: 1;
+  margin-bottom: 300px;
 }
 
-.cardClient {
-  height: 400px;
-}
 
 .dot {
   height: 80px;
@@ -340,7 +348,7 @@ tr#tableHeader {
 #avatarIcon {
   font-size: 30px;
   position: relative;
-  bottom: 3px;
+  bottom: 4px;
   opacity: 0.7;
   height: 40px
 }

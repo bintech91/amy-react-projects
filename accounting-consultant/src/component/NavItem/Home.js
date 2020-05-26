@@ -9,12 +9,12 @@ export class Home extends Component {
                 <div id="bg">
                 </div>
                  <div className="row">
-                    <div className="col s6" style={{margin:'auto', padding: '100px'}}>
+                    <div className="col s12 m12 l6" style={{margin:'auto', padding: '100px'}}>
                         <h2 className="headerFooter">Accounting services starting from $50/mon</h2>
                         <p className="textFooter">It didn&apos;t members sit well way room editing shorthand means racially service</p>
                         <p className="textFooter">Damaging shock parties educational</p>
                     </div>
-                    <div className="col s6">
+                    <div className="col s12 m12 l6">
                         <ConsultantForm />
                     </div>
                     </div>
