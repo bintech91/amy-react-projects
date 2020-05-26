@@ -62,9 +62,9 @@ export class SignIn extends Component {
         return (
             <div className="container" id = 'signin-form'>
                 <div className="signinHeader">
-                <button style={this.state.isSignUp ? {color: 'grey'} : {color: 'black'}} onClick={this.onClick} className = "signinBtn">Sign In</button> 
+                <button style={this.state.isSignUp ? {color: 'grey'} : {color: 'black'}} onClick={this.onClick} className = "signinBtn">Login</button> 
                         <span style={{fontSize: '50px'}}>        /       </span>
-                        <button style={this.state.isSignUp ? {color: 'black'} : {color: 'grey'}} onClick={this.onClick} className="signoutBtn">Sign Up</button> </div>
+                        <button style={this.state.isSignUp ? {color: 'black'} : {color: 'grey'}} onClick={this.onClick} className="signoutBtn">Register</button> </div>
                     <form onSubmit={this.handleSubmit} className="white">
                         {this.state.isSignUp ? <div><div className="input-field">
                             <label className= "required"  htmlFor="firstName">First Name</label>

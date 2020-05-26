@@ -78,7 +78,7 @@ export class UserProfile extends Component {
                 <label htmlFor="email">Email</label>
                 <input readOnly value={this.props.auth.email} type="email" id="email" onChange={this.handleChange} />
                 <div className="input-field">
-                  <button className="btn sendMessage">Sign Out</button>
+                  <button className="btn sendMessage">Logout</button>
                 </div>
               </form>
             </div>
