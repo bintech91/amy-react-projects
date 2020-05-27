@@ -21,8 +21,8 @@ export class Navbar extends Component {
     render() {
         return (
             <div>
-                <div className="navbar-fixed nav-extended">
-                    <nav className="nav-wrapper white">
+                <div className="navbar-fixed nav-extended" style={{height: '60px'}}>
+                    <nav className="nav-wrapper white" style={{height: '60px'}}>
                         <div className="container">
                             <a href="/#" onClick={this.scrollToTop}>
                                 <img alt="" src="/logo.png" onClick={this.scrollToTop} style={{ padding: '10px' }} /></a>

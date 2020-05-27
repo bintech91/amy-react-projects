@@ -96,11 +96,11 @@ button.general {
 }
 
 .sidenav{
-  top: 104px;
+  top: 100px;
 }
 
 .sidenav-overlay {
-  top: 104px;
+  top: 100px;
 }
 
 i.service {
@@ -256,9 +256,10 @@ tr#tableHeader {
   opacity: 0.7;
   position: relative;
   bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  height: 45px
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 45px;
+  width: 45px;
 }
 
 .social-icon:hover {
@@ -268,9 +269,13 @@ tr#tableHeader {
 .account {
   color: black;
   position: relative;
-  bottom: 8px;
+  bottom: 5px;
   margin-left: 20px;
-  height: 50px;
+  height: 45px;
+}
+
+.icon {
+  position: fixed;
 }
 
 .signinBtn, .signoutBtn {
@@ -338,8 +343,8 @@ tr#tableHeader {
 }
 
 .topNavAva {
-  width: 25px;
-  height: 25px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   border: 1px solid grey;
   padding: 1px;
