@@ -58,10 +58,10 @@ export class UserProfile extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col s12 m4" id="avatar">
+          <div className="col s12 m12 l4" id="avatar">
             <img className="avatarImg" src={this.state.url ? this.state.url : this.props.photoURL ? this.props.photoURL : 'https://iupac.org/wp-content/uploads/2018/05/default-avatar.png'} alt="" />
           </div>
-          <div className="col s11 m7 card" id="profile">
+          <div className="col s11 m12 l7 card" id="profile">
             <h4>Profile Information</h4>
             <div className="card-content">
               <form onSubmit={this.handleFireBaseUpload}>

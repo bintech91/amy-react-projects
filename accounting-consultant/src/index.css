@@ -313,12 +313,13 @@ tr#tableHeader {
   padding: 30px;
   margin-left: 20px;
   margin-right: 20px;
-  width: 800;
 }
 
 #avatar{
   margin-top: 50px;
-  padding: 30px;
+  padding-left: 100px;
+  margin-right: 20px;
+  padding-top: 30px;
 }
 
 .uploadAvatar {
