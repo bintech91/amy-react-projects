@@ -6,7 +6,7 @@ export class AboutUs extends Component {
     render() {
         return (
             <div id={this.props.id}> 
-                <div className="row" style={{paddingLeft: '100px'}}>
+                <div className="row" style={{paddingLeft: '60px'}}>
                 <div className="col s12 m12 l5">
                     <div>
                             <img src="/about-us.jpg" alt="" style={{width: '80%'}}/>

@@ -58,16 +58,16 @@ export class UserProfile extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col s4" id="avatar">
+          <div className="col s12 m4" id="avatar">
             <img className="avatarImg" src={this.state.url ? this.state.url : this.props.photoURL ? this.props.photoURL : 'https://iupac.org/wp-content/uploads/2018/05/default-avatar.png'} alt="" />
           </div>
-          <div className="col s7 card" id="profile">
+          <div className="col s11 m7 card" id="profile">
             <h4>Profile Information</h4>
             <div className="card-content">
               <form onSubmit={this.handleFireBaseUpload}>
                 <div className="uploadAvatar">
-                  <label style={{ marginRight: '20px' }} htmlFor="avatar">Upload Avatar</label>
-                  <input name="avatar" type="file" onChange={this.handleImageAsFile} />
+                  <label  style={{ marginRight: '20px' }} htmlFor="avatar">Upload Avatar</label>
+                  <input style={{ marginTop: '20px', marginBottom: '20px' }} name="avatar" type="file" onChange={this.handleImageAsFile} />
                   <button className="uploadBtn" style={this.state.isUpload ? { visibility: 'visible' } : { visibility: 'hidden' }}>Upload Avatar</button></div>
               </form>
               <form onSubmit={this.handleSubmit} className="white">

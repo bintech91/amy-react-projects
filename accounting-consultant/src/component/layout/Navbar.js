@@ -26,7 +26,7 @@ export class Navbar extends Component {
                         <div className="container">
                             <a href="/#" onClick={this.scrollToTop}>
                                 <img alt="" src="/logo.png" onClick={this.scrollToTop} style={{ padding: '10px' }} /></a>
-                            <a href="#" data-target="slide-out" className="sidenav-trigger">
+                            <a href="/#" data-target="slide-out" className="sidenav-trigger">
                                 <i style={{ color: 'black' }} className="material-icons">menu</i></a>
                             <ul id="nav-mobile" className="right hide-on-med-and-down">
                                 <li>

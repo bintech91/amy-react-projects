@@ -12,9 +12,9 @@ export class TopNav extends Component {
                     <div className="container">
                       <div className="right">
                         <ul>
-                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/30/000000/facebook-new.png"/></NavLink></li>
-                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/30/000000/twitter.png"/></NavLink></li>
-                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/30/000000/instagram-new.png"/></NavLink></li>
+                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/24/000000/facebook-new.png"/></NavLink></li>
+                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/24/000000/twitter.png"/></NavLink></li>
+                          <li><NavLink className="social-icon" to="/"><img className="icon" alt="" src="https://img.icons8.com/small/24/000000/instagram-new.png"/></NavLink></li>
                            <li><NavLink to={auth.uid ? '/userprofile' : '/signin'} className="account">
                              {!this.props.photoURL ? <i className="material-icons" id="avatarIcon">account_circle</i> : 
                              <img className= 'topNavAva' src={this.props.photoURL} alt=""/>}</NavLink></li>

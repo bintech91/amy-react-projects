@@ -254,24 +254,20 @@ tr#tableHeader {
 
 .social-icon {
   opacity: 0.7;
-  position: relative;
-  bottom: 5px;
   padding-left: 10px;
-  padding-top: 10px;
-  height: 45px;
-  width: 45px;
+  padding-top: 8px;
+  height: 40px;
+  width: 44px;
 }
 
 .social-icon:hover {
-  height: 45px;
+  height: 40px;
 }
 
 .account {
   color: black;
-  position: relative;
-  bottom: 5px;
   margin-left: 20px;
-  height: 45px;
+  height: 40px;
 }
 
 .icon {
@@ -316,6 +312,7 @@ tr#tableHeader {
   margin-top: 80px;
   padding: 30px;
   margin-left: 20px;
+  margin-right: 20px;
   width: 800;
 }
 
@@ -348,18 +345,21 @@ tr#tableHeader {
   border-radius: 50%;
   border: 1px solid grey;
   padding: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #avatarIcon {
   font-size: 30px;
-  position: relative;
-  bottom: 4px;
   opacity: 0.7;
-  height: 40px
+  height: 40px;
+  position: fixed;
+  position: relative;
+  bottom: 8px;
 }
 
 #avatarIcon:hover {
-  height: 50px
+  height: 40px
 }
 
 .topNav {
